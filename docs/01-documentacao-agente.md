@@ -12,17 +12,17 @@ Muitas pessoas têm dificuldade em controlar seus gastos mensais e não consegue
 
 O agente funciona como um assistente que ajuda o usuário a cuidar do dinheiro de forma simples:
 
-*Registra gastos
-*Mostra para onde o dinheiro está indo
-*Acompanha metas (ex: guardar R$ 5.000)
-*Sugere formas simples de economizar
+* Registra gastos
+* Mostra para onde o dinheiro está indo
+* Acompanha metas (ex: guardar R$ 5.000)
+* Sugere formas simples de economizar
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-*Pessoas de todas a ideades que queiram organizar melhor o dinheiro
-*Quem tem dificuldade para economizar
-*Quem tem metas financeiras (viagem, compra, reserva)
+* Pessoas de todas a ideades que queiram organizar melhor o dinheiro
+* Quem tem dificuldade para economizar
+* Quem tem metas financeiras (viagem, compra, reserva)
 
 ---
 
@@ -85,7 +85,7 @@ flowchart TD
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-*Substitui um especialista em finanças
-*Garante que o usuário vai economizar
-*Faz previsões exatas do futuro
-*Dá recomendações avançadas de investimento
+* Substitui um especialista em finanças
+* Garante que o usuário vai economizar
+* Faz previsões exatas do futuro
+* Dá recomendações avançadas de investimento
