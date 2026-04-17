@@ -20,7 +20,7 @@ O agente funciona como um assistente que ajuda o usuário a cuidar do dinheiro d
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-* Pessoas de todas a ideades que queiram organizar melhor o dinheiro
+* Pessoas de todas a idades que queiram organizar melhor o dinheiro
 * Quem tem dificuldade para economizar
 * Quem tem metas financeiras (viagem, compra, reserva)
 
@@ -42,9 +42,9 @@ Amigável, educado, empático e direto.
 Informal e acessível
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
+- Saudação: "Olá! Como posso ajudar com suas finanças hoje?"
+- Confirmação: "Entendi! Deixa eu verificar isso para você."
+- Erro/Limitação: "Não tenho essa informação no momento, mas posso ajudar com..."
 
 ---
 
@@ -77,10 +77,10 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [x] [ex: Agente só responde com base nos dados fornecidos]
-- [x] [ex: Respostas incluem fonte da informação]
-- [x] [ex: Quando não sabe, admite e redireciona]
-- [x] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [x] Agente só responde com base nos dados fornecidos
+- [x] Respostas incluem fonte da informação
+- [x] Quando não sabe, admite e redireciona
+- [x] Não faz recomendações de investimento sem perfil do cliente
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
