@@ -20,7 +20,12 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-[Sua descrição aqui]
+Os dados foram organizados para facilitar a leitura do modelo e melhorar a resposta do agente:
+
+* O perfil do usuário foi estruturado em JSON com informações financeiras completas (renda, metas, patrimônio e perfil de risco)
+* As transações foram mantidas em formato CSV para fácil leitura e análise de gastos
+* O histórico de atendimento foi armazenado em CSV para simular memória de conversa
+* Os produtos financeiros foram organizados em JSON para possíveis recomendações futuras
 
 ---
 
@@ -29,12 +34,12 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+Os dados são carregados no início da aplicação usando json.load() para arquivos JSON e pandas.read_csv() para arquivos CSV. Eles ficam disponíveis durante toda a execução do agente.
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-[Sua descrição aqui]
+Os dados são inseridos diretamente no contexto do prompt, junto com o system prompt e a pergunta do usuário.
 
 ---
 
@@ -45,11 +50,24 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 ```
 Dados do Cliente:
 - Nome: João Silva
+- Idade: 32
+- Profissão: Analista de Sistemas
+- Renda mensal: R$ 5000
 - Perfil: Moderado
-- Saldo disponível: R$ 5.000
+- Objetivo: Construir reserva de emergência
+
+Reserva de emergência:
+- Atual: R$ 10000
+- Meta: R$ 15000
+- Falta: R$ 5000
 
 Últimas transações:
-- 01/11: Supermercado - R$ 450
-- 03/11: Streaming - R$ 55
-...
+data | categoria | valor
+2026-04-01 | Alimentação | 120
+2026-04-03 | Transporte | 80
+2026-04-05 | Alimentação | 60
+
+Atendimentos anteriores:
+Usuário: Quanto gastei com alimentação?
+Agente: Você gastou R$ 180 neste período.
 ```
